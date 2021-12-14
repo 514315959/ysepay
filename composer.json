@@ -1,5 +1,5 @@
 {
-    "name": "shion/ysepay",
+    "name": "leo/ysepay",
     "description": "yse payment api",
     "license": "MIT",
     "autoload": {
@@ -9,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "shion",
-            "email": "shion.chow@gmail.com"
+            "name": "leo",
+            "email": "514315959@qq.com"
         }
     ],
     "require": {
