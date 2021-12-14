@@ -1,0 +1,19 @@
+{
+    "name": "shion/ysepay",
+    "description": "yse payment api",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shion\\YsePay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shion",
+            "email": "shion.chow@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": ">=6.3.3"
+    }
+}
