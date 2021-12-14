@@ -1,5 +1,5 @@
 {
-    "name": "leo/ysepay",
+    "name": "leo_zd/ysepay",
     "description": "yse payment api",
     "license": "MIT",
     "autoload": {
