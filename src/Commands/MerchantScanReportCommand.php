@@ -22,6 +22,7 @@ class MerchantScanReportCommand extends Command
         'mchType',
         'orgNo',
         'appletAppid',
+        'bankName'
     ];
 
     public function build($params)
