@@ -58,14 +58,14 @@ class MerchantWithdrawQuickAcceptCommand extends Command
             'message' => $data->$method->msg,
             'out_trade_no' => $data->$method->out_trade_no,
             'trade_status' => $data->$method->trade_status,
-            'trade_status_description' => $data->$method->trade_status_description,
-            'total_amount' => $data->$method->total_amount,
-            'account_date' => $data->$method->account_date,
-            'trade_no' => $data->$method->trade_no,
-            'fee' => $data->$method->fee,
-            'partner_fee' => $data->$method->partner_fee,
-            'payee_fee' => $data->$method->payee_fee,
-            'payer_fee' => $data->$method->payer_fee,
+            'trade_status_description' => $data->$method->trade_status_description ?? '',
+            'total_amount' => $data->$method->total_amount ?? 0,
+            'account_date' => $data->$method->account_date ?? '',
+            'trade_no' => $data->$method->trade_no ?? '',
+            'fee' => $data->$method->fee ?? 0,
+            'partner_fee' => $data->$method->partner_fee ?? 0,
+            'payee_fee' => $data->$method->payee_fee ?? 0,
+            'payer_fee' => $data->$method->payer_fee ?? 0,
         ];
     }
 }
