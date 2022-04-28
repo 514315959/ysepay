@@ -7,7 +7,7 @@ use GuzzleHttp\Psr7\Response;
 /**
  * 微信实名认证申请
  */
-class AuthenticateWxApplyCancel extends Command
+class AuthenticateWxApplyCancelCommand extends Command
 {
     public $api_url = 'https://openapi.ysepay.com/gateway.do';
 
