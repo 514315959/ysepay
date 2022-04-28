@@ -228,6 +228,14 @@ class YsePay
     }
 
     /**
+     * 微信实名认证状态查询
+     */
+    public function wxApplyCancel($params)
+    {
+        return $this->exec('ysepay.authenticate.wx.apply.cancel', $params);
+    }
+
+    /**
      * 微信实名认证授权状态查询
      */
     public function wxAuthorizedApplyQuery($params)
