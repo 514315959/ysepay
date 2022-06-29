@@ -24,6 +24,7 @@ class AuthenticateWxApplyCommand extends Command
         'store_type',
         'store_name',
         'token',
+        'mer_contact_info',
     ];
 
     public function build($params)
