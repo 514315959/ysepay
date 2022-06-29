@@ -49,7 +49,8 @@ class MerchantRegisterAcceptCommand extends Command
         'service_tel',
         'org_no',
         'sub_account_flag',
-        'token'
+        'token',
+        'mer_contact_info'
     ];
 
     public function build($params)
